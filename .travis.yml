@@ -2,9 +2,8 @@ language: cpp
 compiler:
   - gcc
 before_script:
-  - mkdir build
-  - cd build
-  - source/cmake ..
+  - cd sources
+  - cmake ..
 script:
   - make
   - cd output
