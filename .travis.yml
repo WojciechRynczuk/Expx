@@ -2,7 +2,8 @@ language: cpp
 compiler:
   - gcc
 before_script:
-  - cmake sources/..
+  - cd sources
+  - cmake ..
 script:
   - cd sources
   - make
