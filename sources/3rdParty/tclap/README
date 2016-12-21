@@ -1,0 +1,22 @@
+
+TCLAP - Templatized Command Line Argument Parser
+
+This is a simple C++ library that facilitates parsing command line
+arguments in a type independent manner.  It doesn't conform exactly
+to either the GNU or POSIX standards, although it is close.  See
+docs/manual.html for descriptions of how things work or look at the
+simple examples in the examples dir.
+
+To find out what the latest changes are read the NEWS file in this directory.
+
+
+Any and all feedback is welcome to:  Mike Smoot <mes@aescon.com>
+
+
+-------------------------------------
+
+This is an unofficial fork for version 1.2.1 so that I can use it as a
+submodule in my own software to make life easier for Windows users.
+
+I make no claims to any of the code in this repository.
+
