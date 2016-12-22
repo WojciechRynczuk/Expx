@@ -16,6 +16,7 @@ compiler:
   - g++-6
 before_script:
   - cd ./sources
+  - ls
   - cmake ..
 script:
   - make
