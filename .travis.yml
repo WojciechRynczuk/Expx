@@ -19,7 +19,6 @@ addons:
     - txt2man
 
 before_script:
-  - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
   - git submodule update --init --recursive
   - cd ./sources
   - export CC=gcc-6
