@@ -17,5 +17,5 @@ compiler:
 before_script:
   - cmake ./sources
 script:
-  - make ./sources
+  - make -f ./sources/Makefile
   - ./sources/output/vcdMaker
