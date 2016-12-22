@@ -15,7 +15,8 @@ language: cpp
 compiler:
   - g++-6
 before_script:
-  - cmake ./sources
+  - cd ./sources
+  - cmake ..
 script:
-  - make -f ./sources/Makefile
-  - ./sources/output/vcdMaker
+  - make
+  - ./output/vcdMaker
