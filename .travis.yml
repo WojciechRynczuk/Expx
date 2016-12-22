@@ -1,6 +1,18 @@
+sudo: required
+dist: trusty
+
+addons:
+  apt:
+    sources:
+    - ubuntu-toolchain-r-test
+    packages:
+    - gcc-6.2
+    - g++-6.2
+env: COMPILER=g++-6
+
 language: cpp
 compiler:
-  - gcc
+  - g++
 before_script:
   - cmake ./sources
 script:
