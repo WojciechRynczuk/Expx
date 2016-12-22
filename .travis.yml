@@ -20,7 +20,7 @@ env: CXX=g++-6
 before_script:
   - cd ./sources
   - ls
-  - $(CXX) --version
+  - $CXX --version
   - cmake .
 script:
   - make
