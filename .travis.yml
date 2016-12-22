@@ -14,10 +14,8 @@ addons:
 
 before_script:
   - cd ./sources
-  - ls
   - export CC=gcc-6
   - export CXX=g++-6
-  - $CXX --version
   - cmake .
 script:
   - make
