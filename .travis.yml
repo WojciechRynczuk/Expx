@@ -13,13 +13,14 @@ addons:
     - gcc-6
     - g++-6
     - txt2man
-    
-env: COMPILER=g++-6
+
+env: CC=g++-6
+env: CXX=g++-6
 
 before_script:
   - cd ./sources
   - ls
-  - g++ --version
+  - $(CXX) --version
   - cmake .
 script:
   - make
