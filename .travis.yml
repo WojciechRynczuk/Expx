@@ -16,6 +16,8 @@ addons:
     - txt2man
 
 before_script:
+  - git submodule init
+  - git submodule update
   - cd ./sources
   - export CC=gcc-6
   - export CXX=g++-6
