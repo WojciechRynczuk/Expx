@@ -16,4 +16,4 @@ before_script:
   - cmake ./sources
 script:
   - make ./sources
-  - .sources/output/vcdMaker
+  - ./sources/output/vcdMaker
