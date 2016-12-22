@@ -6,9 +6,9 @@ addons:
     sources:
     - ubuntu-toolchain-r-test
     packages:
-    - gcc-6.2
-    - g++-6.2
-env: COMPILER=g++-6
+    - gcc
+    - g++
+env: COMPILER=g++
 
 language: cpp
 compiler:
