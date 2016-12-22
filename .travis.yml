@@ -1,7 +1,10 @@
 sudo: required
 dist: trusty
 
-language: cpp
+language: python
+
+python:
+  - "3.5"
   
 addons:
   apt:
@@ -19,4 +22,5 @@ before_script:
   - cmake .
 script:
   - make
+  - python --version
   - python ../development/test/comparison_test.py --exec ./output/vcdMaker --testdir ./vcdMaker/test
