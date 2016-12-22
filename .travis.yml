@@ -17,7 +17,7 @@ compiler:
 before_script:
   - cd ./sources
   - ls
-  - g++ version
+  - g++ --version
   - cmake .
 script:
   - make
