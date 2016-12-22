@@ -21,4 +21,4 @@ before_script:
   - cmake .
 script:
   - make
-  - ./output/vcdMaker
+  - python ./development/test/comparison_test.py --exec ./sources/output/vcdMaker --testdir ./sources/vcdMaker/test
