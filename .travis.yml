@@ -1,6 +1,10 @@
 sudo: required
 dist: trusty
 
+language: cpp
+compiler:
+  - g++
+  
 addons:
   apt:
     sources:
@@ -9,11 +13,7 @@ addons:
     - gcc-6
     - g++-6
     - txt2man
-env: COMPILER=g++-6
 
-language: cpp
-compiler:
-  - g++
 before_script:
   - cd ./sources
   - ls
