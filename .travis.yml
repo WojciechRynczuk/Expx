@@ -20,3 +20,4 @@ before_script:
 script:
   - make
   - python ../development/test/comparison_test.py --exec ./output/vcdMaker --testdir ./vcdMaker/test
+  - ls
