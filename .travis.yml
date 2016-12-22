@@ -13,10 +13,11 @@ env: COMPILER=g++-6
 
 language: cpp
 compiler:
-  - g++-6
+  - g++
 before_script:
   - cd ./sources
   - ls
+  - g++ version
   - cmake .
 script:
   - make
