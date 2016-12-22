@@ -1,11 +1,22 @@
+sudo: required
+dist: trusty
+
 language: cpp
-compiler:
-  - gcc
+  
+addons:
+  apt:
+    sources:
+    - ubuntu-toolchain-r-test
+    packages:
+    - gcc-6
+    - g++-6
+    - txt2man
+
 before_script:
-  - mkdir build
-  - cd build
-  - source/cmake ..
+  - cd ./sources
+  - export CC=gcc-6
+  - export CXX=g++-6
+  - cmake .
 script:
   - make
-  - cd output
-  - ./vcdMaker
+  - python ../development/test/comparison_test.py --exec ./output/vcdMaker --testdir ./vcdMaker/test
