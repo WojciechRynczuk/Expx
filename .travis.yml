@@ -17,7 +17,7 @@ compiler:
 before_script:
   - cd ./sources
   - ls
-  - cmake ..
+  - cmake .
 script:
   - make
   - ./output/vcdMaker
