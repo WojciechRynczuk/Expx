@@ -4,10 +4,12 @@ sudo: required
 dist: trusty
 
 language: python
-
 python:
   - "3.5"
-  
+
+language: cpp
+
+#Disable the default Travis submodule behavior.
 git:
   submodules: false
   
@@ -25,9 +27,8 @@ before_script:
   - cd ./sources
   - export CC=gcc-6
   - export CXX=g++-6
-  - cmake .
   
 script:
+  - cmake .
   - make
-  - python --version
-  - python ../development/test/comparison_test.py --exec ./output/vcdMaker --testdir ./vcdMaker/test
+  - cmake comparisonTest
