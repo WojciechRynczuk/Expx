@@ -3,11 +3,8 @@
 sudo: required
 dist: trusty
 
-language: python
 python:
   - "3.5"
-
-language: cpp
 
 #Disable the default Travis submodule behavior.
 git:
@@ -31,4 +28,4 @@ before_script:
 script:
   - cmake .
   - make
-  - cmake comparisonTest
+  - make comparisonTest
