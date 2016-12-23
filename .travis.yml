@@ -18,6 +18,16 @@ addons:
     - gcc-6
     - g++-6
     - txt2man
+    
+# Blocklist - branches not to be built. RegEx is allowed.
+branches:
+  except:
+  - r2_release
+
+# Safelist - branches to be built.
+branches:
+  only:
+  - master
 
 before_script:
   - git submodule update --init --recursive
