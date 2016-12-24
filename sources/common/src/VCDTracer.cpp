@@ -61,7 +61,7 @@ void TRACER::VCDTracer::GenerateHeader()
 
 void TRACER::VCDTracer::GenerateBasicInformation()
 {
-    DumpLine("$date December 8, 2016 14:15:00");
+    DumpLine("$date December 8, 2014 14:15:00");
     DumpLine("$end");
     DumpLine("$version VCD Tracer \"Mateusz\" Release v." + std::string(VERSION::STRING));
     DumpLine("$end");
