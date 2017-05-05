@@ -8,7 +8,7 @@
 [![GitHub Release](https://github-basic-badges.herokuapp.com/release/WojciechRynczuk/github-basic-badges.svg)]()
 
 
-[![GitHub Release](https://github-basic-badges.herokuapp.com/release/WojciechRynczuk/vcdMaker.svg)]()
+[![GitHub Release](https://github-basic-badges.herokuapp.com/release/WojciechRynczuk/vcdMaker.svg)](https://github.com/WojciechRynczuk/vcdMaker/releases/latest)
 [![GitHub Issues Open](https://github-basic-badges.herokuapp.com/issues/WojciechRynczuk/vcdMaker.svg)]()
 [![GitHub Commits](https://github-basic-badges.herokuapp.com/commits/WojciechRynczuk/vcdMaker.svg)]()
 [![GitHub License](https://github-basic-badges.herokuapp.com/license/WojciechRynczuk/vcdMaker.svg)]()
