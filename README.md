@@ -14,4 +14,6 @@
 [![GitHub License](https://github-basic-badges.herokuapp.com/license/WojciechRynczuk/github-basic-badges.svg)]()
 [![GitHub Pull Requests](https://github-basic-badges.herokuapp.com/pulls/WojciechRynczuk/github-basic-badges.svg)]()
 
+[![release](http://github-release-version.herokuapp.com/github/WojciechRynczuk/vcdMaker/release.svg?style=flat)](https://github.com/WojciechRynczuk/vcdMaker/releases/latest)
+
 Some description...
