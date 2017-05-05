@@ -10,8 +10,8 @@ The **vcdMaker** is an open and free application for translating text log files 
 
 You can contact us via <a href="mailto:vcdmaker@mail.com">e-mail</a>.
 
-## Project status
-Development: [![Build Status](https://travis-ci.org/WojciechRynczuk/vcdMaker.svg?branch=v3_release)](https://travis-ci.org/WojciechRynczuk/vcdMaker)
+## Development status
+[![Build Status](https://travis-ci.org/WojciechRynczuk/vcdMaker.svg?branch=v3_release)](https://travis-ci.org/WojciechRynczuk/vcdMaker)
 [![GitHub Issues Open](https://github-basic-badges.herokuapp.com/issues/WojciechRynczuk/vcdMaker.svg)](https://github.com/WojciechRynczuk/vcdMaker/issues)
 
 
