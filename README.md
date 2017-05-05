@@ -8,4 +8,10 @@
 [![GitHub Release](https://github-basic-badges.herokuapp.com/release/WojciechRynczuk/github-basic-badges.svg)]()
 
 
+[![GitHub Release](https://github-basic-badges.herokuapp.com/release/WojciechRynczuk/github-basic-badges.svg)]()
+[![GitHub Issues Open](https://github-basic-badges.herokuapp.com/issues/WojciechRynczuk/github-basic-badges.svg)]()
+[![GitHub Commits](https://github-basic-badges.herokuapp.com/commits/WojciechRynczuk/github-basic-badges.svg)]()
+[![GitHub License](https://github-basic-badges.herokuapp.com/license/WojciechRynczuk/github-basic-badges.svg)]()
+[![GitHub Pull Requests](https://github-basic-badges.herokuapp.com/pulls/WojciechRynczuk/github-basic-badges.svg)]()
+
 Some description...
