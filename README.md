@@ -3,6 +3,6 @@
 
 # GitHub Basic Badges
 
-https://github-basic-badges.herokuapp.com/downloads/WojciechRynczuk/vcdMaker/total.svg
+[![GitHub Download Count](https://github-basic-badges.herokuapp.com/downloads/WojciechRynczuk/vcdMaker/total.svg)]()
 
 Some description...
