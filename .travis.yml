@@ -13,7 +13,7 @@ git:
 addons:
   apt:
     sources:
-    - ppa:chris-lea/redis-server
+    - ubuntu-toolchain-r-test
     packages:
     - gcc-8
     - g++-8
