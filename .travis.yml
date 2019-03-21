@@ -39,4 +39,4 @@ script:
   - ls /usr/bin | grep gcov
   - lcov --version
   - gcov-8 --version
-  - update-alternatives --query gcov
+  - cat /usr/bin/gcov
