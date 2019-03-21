@@ -19,7 +19,6 @@ addons:
     - g++-6
     - txt2man
     - lcov
-    - gcov
     
 # Blocklist - branches not to be built. RegEx is allowed.
 branches:
