@@ -32,6 +32,9 @@ branches:
 
 before_script:
   - cd ./sources
+  - wget http://mirrors.kernel.org/ubuntu/pool/universe/l/lcov/lcov_1.13-4_all.deb
+  - sudo dpkg -i lcov_1.13-4_all.deb
+  - rm -f lcov_1.13-4_all.deb
   - export CC=gcc-6
   - export CXX=g++-6
   
