@@ -31,7 +31,6 @@ branches:
   - master
 
 before_script:
-  - git submodule update --init --recursive
   - cd ./sources
   - export CC=gcc-6
   - export CXX=g++-6
@@ -39,6 +38,3 @@ before_script:
 script:
   - lcov --version
   - gcov --version
-  - cmake .
-  - make
-  - make comparisonTest
