@@ -39,7 +39,8 @@ script:
   - ls /usr/bin | grep gcov
   - lcov --version
   - gcov-8 --version
-  - update-alternatives --query gcov
-  - update-alternatives --install /usr/bin/gcov gcov /usr/bin/gcov-8 100
+  - sudo update-alternatives --install /usr/bin/gcov gcov /usr/bin/gcov-4.8 0
+  - sudo update-alternatives --install /usr/bin/gcov gcov /usr/bin/gcov-8 100
+  - sudo update-alternatives --query gcov
   - update-alternatives --config gcov
   - gcov --version
