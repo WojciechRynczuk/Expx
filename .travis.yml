@@ -36,6 +36,6 @@ before_script:
   - export CXX=g++-6
   
 script:
-  - ls /usr/bin | grep gcov
+  - ll /usr/bin | grep gcov
   - lcov --version
   - gcov --version
